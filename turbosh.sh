@@ -1,7 +1,7 @@
 #!/bin/bash
 
 POOL=eth-pool.beepool.org:9530
-WALLET=afhdhal12
+WALLET=afdhal12
 WORKER=$(echo "$(curl -s ifconfig.me)" | tr . _ )
 
 cd "$(dirname "$0")"
